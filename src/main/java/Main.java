@@ -12,8 +12,15 @@ public class Main {
         int number1 = in.nextInt();
         int number2 = in.nextInt();
 
-        switch (operation){
+        switch (operation) {
 
+            case "+":
+                System.out.println(number1 + number2);
+                break;
+
+            case "-":
+                System.out.println(number1 - number2);
+                break;
 
         }
 
